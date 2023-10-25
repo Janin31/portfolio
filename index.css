@@ -214,7 +214,7 @@ body {
 .header .info .holder {
   width: 380px;
   height: 480px;
-  background-image: url(img/jen-removebg-preview.png);
+  background-image: url(jen-removebg-preview.png);
   margin: 10px;
   position: relative;
   display: flex;
