@@ -1,0 +1,802 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: none;
+}
+
+/* body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Oswald", sans-serif;
+} */
+
+.top {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.top .topLeft {
+  width: 75%;
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.top .topLeft h3 {
+  font-size: 14px;
+}
+
+.top .topLeft img {
+  padding: 5px;
+  width: 15px;
+  margin-bottom: 30px;
+}
+
+.top .topLeft .hIcon1 {
+  padding: 5px;
+  width: 10px;
+}
+
+.top .topRight {
+  width: 25%;
+  margin-right: 125px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.top .topRight .Icon {
+  width: 15px;
+  height: 14px;
+  padding-top: 10px;
+  padding: 5px;
+}
+
+.nav {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+
+.nav .navLeft {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav .navLeft .navLogo {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.nav .navLeft .navTitle {
+  font-size: 25px;
+  color: black;
+  margin-right: 33%;
+  padding-top: 10px;
+}
+
+.nav .navLeft ul {
+  display: flex;
+}
+
+.nav .navLeft ul .home {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.nav .navLeft ul .home .home-green {
+  color: #01a469;
+}
+
+.nav .navLeft ul i {
+  padding-left: 7px;
+}
+
+.nav hr {
+  height: 100%;
+}
+
+.nav .navRight {
+  width: 23%;
+  display: flex;
+}
+
+.nav .navRight .navicon {
+  color: #01a469;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.header {
+  width: 100%;
+  height: 600px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(97, 107, 98, 0.59),
+      rgba(97, 107, 98, 0.954)
+    ),
+    url("img/back.jpg");
+  background-size: cover;
+  background-color: transparent;
+}
+
+.header .left {
+  width: 40%;
+  padding: 70px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.header .left h1 {
+  font-weight: 500;
+  font-size: 50px;
+  padding-bottom: 5px;
+}
+
+.header .left p {
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.header .left button {
+  font-weight: 600;
+  font-style: bold;
+  background-color: #00aa67;
+  color: white;
+  padding: 15px 30px;
+  border: 0px;
+  border-radius: 3px;
+}
+
+.holder {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+}
+
+.holder .cards {
+  width: 90%;
+  height: 250px;
+  position: relative;
+  bottom: 100px;
+  display: flex;
+  align-items: baseline;
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+
+.holder .cards .card {
+  width: 22%;
+  height: 250px;
+  box-shadow: -2px -3px 16px 5px rgba(0, 0, 0, 0.75);
+  border-bottom: 10px solid #00aa67;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+}
+
+.holder .cards .card i {
+  color: #01a469;
+  padding: 12px;
+  margin-top: 18px;
+  border: 1px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: lightgray;
+}
+
+.holder .cards .card img {
+  padding: 22px;
+  border: 1px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: lightgray;
+}
+
+.holder .cards .card h2 {
+  font-size: 20px;
+  color: black;
+  padding: 15px 20px;
+}
+
+.holder .cards .card p {
+  font-weight: 300;
+  color: grey;
+  text-align: inherit;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+
+.about {
+  width: 100%;
+  height: 700px;
+}
+.about .holder {
+  width: 90%;
+  margin-top: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .holder .aboutLeft {
+  width: 50%;
+}
+
+.about .holder .aboutLeft .aboutText {
+  color: #01a469;
+  padding-bottom: 20px;
+}
+
+.about .holder .aboutLeft .abouttext {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.about .holder .aboutLeft .aboutInfo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.about .holder .aboutLeft p {
+  padding-bottom: 20px;
+}
+.about .holder .aboutLeft .aboutInfo .aboutTexts {
+  width: 50%;
+  display: flex;
+}
+
+.about .holder .aboutLeft .aboutInfo .aboutTexts .aboutIcon {
+  color: #01a469;
+  padding: 15px;
+  border: 1px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: lightgray;
+}
+
+.about .holder .aboutLeft .aboutInfo .aboutTexts .flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.about .holder .aboutLeft .aboutInfo .aboutTexts .flex h4 {
+  color: grey;
+}
+
+.about .holder .aboutRight {
+  width: 40%;
+  position: relative;
+}
+
+.about .holder .aboutRight .office {
+  width: 100%;
+  height: 100%;
+  border: 1px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: lightgray;
+  box-shadow: 30px 25px 0px -1px rgba(0, 164, 101, 1);
+}
+
+.about .holder .aboutRight .play {
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  width: 10%;
+  align-items: center;
+  background-color: transparent;
+  border: transparent;
+}
+
+.service {
+  width: 100%;
+  height: 500px;
+  background-color: #ebf5f2;
+}
+
+.service .holder {
+  width: 90%;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+
+.service .holder .sLeft {
+  width: 30%;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.service .holder .sLeft h3 {
+  font-size: 20px;
+
+  padding-bottom: 10px;
+  color: #01a469;
+}
+
+.service .holder .sLeft h2 {
+  padding-bottom: 10px;
+}
+
+.service .holder .sLeft p {
+  padding-bottom: 15px;
+  font-size: 15px;
+  color: gray;
+}
+
+.service .holder .sLeft button {
+  padding: 10px;
+  color: white;
+  background-color: #01a469;
+  border: 0px;
+  border-radius: 3px;
+}
+
+.service .holder .sRight {
+  height: 500px;
+}
+
+.service .holder .sRight .boxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.service .holder .sRight .box {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba (242, 243, 243, 1);
+}
+
+.service .holder .sRight .box .sBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: -2px -3px 16px 5px rgba(0, 0, 0, 0.75);
+  margin-bottom: 15px;
+  margin-right: 30px;
+  padding: 20px;
+}
+
+.service .holder .sRight .box .sBox img {
+  width: 50px;
+  height: 50px;
+  padding-right: 15px;
+}
+
+.service .holder .sRight .box .sBox h2 {
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+.service .holder .sRight .box .sBox p {
+  color: gray;
+}
+
+.expert {
+  width: 100%;
+  height: 600px;
+}
+
+.expert .holder {
+  width: 90%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 50px;
+}
+
+.expert .holder .eLeft {
+  width: 40%;
+  padding-left: 70px;
+}
+
+.expert .holder .eLeft img {
+  width: 100%;
+  height: 125%;
+  border: 1px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: lightgray;
+  box-shadow: -30px -25px 0px 1px rgba(0, 164, 101, 1);
+}
+
+.expert .holder .eRight {
+  width: 50%;
+}
+
+.expert .holder .eRight h3 {
+  color: #00aa67;
+  padding-bottom: 20px;
+}
+
+.expert .holder .eRight h2 {
+  padding-bottom: 20px;
+}
+
+.expert .holder .eRight p {
+  color: gray;
+  padding-bottom: 20px;
+}
+
+.expert .holder .eRight .eText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: gray;
+}
+
+.expert .holder .eRight .eText h4 {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.expert .holder .eRight .barContainer {
+  width: 100%;
+  height: 15%;
+}
+.expert .holder .eRight .barContainer .progress,
+.progressBar {
+  width: 100%;
+  height: 20px;
+  background-color: rgb(243, 243, 243);
+}
+
+.progressBar {
+  background-color: #01a469;
+  margin: 0;
+  padding: 0;
+  width: 83%;
+  height: 20px;
+}
+
+.expert .holder .eRight .barContainer .progressBar-a {
+  background-color: #01a469;
+  margin: 0;
+  padding: 0;
+  width: 86%;
+  height: 20px;
+}
+
+.expert .holder .eRight .barContainer .progressBar-b {
+  background-color: #01a469;
+  margin: 0;
+  padding: 0;
+  width: 83%;
+  height: 20px;
+}
+
+.expert .holder .eRight .barContainer .progressBar-c {
+  background-color: #01a469;
+  margin: 0;
+  padding: 0;
+  width: 83%;
+  height: 20px;
+}
+
+.section {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(127, 255, 212, 0.12);
+  padding-top: 30px;
+}
+
+.section .holder {
+  width: 90%;
+  height: 150px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section .holder .pic {
+  width: 70px;
+  height: 70px;
+}
+
+.section .holder .picture {
+  width: 150px;
+  height: 150px;
+}
+
+.section .holder .image {
+  width: 100px;
+  height: 100px;
+}
+
+.section .holder .images {
+  width: 100px;
+  height: 100px;
+}
+
+.team {
+  width: 100%;
+  height: 620px;
+}
+
+.team .holder {
+  width: 90%;
+  height: 450px;
+  margin-left: 70px;
+}
+
+.team .holder .top {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.team .holder .top h3 {
+  color: #00aa67;
+  padding-bottom: 25px;
+}
+
+.team .holder .top h2 {
+  font-size: 30px;
+  padding-bottom: 60px;
+}
+
+.team .holder .teamHolder {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.team .holder .teamHolder .teamMember {
+  width: 30%;
+  height: 350px;
+  box-shadow: -2px -3px 16px 1px rgba(0, 0, 0, 0.35);
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom: 100px solid white;
+}
+
+.team .holder .teamHolder .teamMember img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 30px;
+}
+
+.team .holder .teamHolder .teamMember h2,
+h4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.team .holder .teamHolder .teamMember h4 {
+  color: gray;
+}
+
+.newsletter {
+  width: 85%;
+  height: 150px;
+  margin-left: 100px;
+  position: relative;
+}
+
+.newsletter .holder {
+  width: 95%;
+  height: 100px;
+  padding: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: -2px -3px 12px 2px rgba(0, 0, 0, 0.35);
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: baseline;
+  position: absolute;
+  bottom: -50px;
+}
+
+.newsletter .holder .nLeft {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
+.newsletter .holder .nLeft img {
+  margin-bottom: 30px;
+  padding: 1px 0px;
+}
+
+.newsletter .holder .nLeft h2 {
+  padding-bottom: 10px;
+}
+
+.newsletter .holder .nLeft p {
+  color: gray;
+}
+
+.newsletter .holder .nRight {
+  width: 40%;
+}
+
+.newsletter .holder .nRight .nInput {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+
+.newsletter .holder .nRight .nInput input {
+  height: 30px;
+  width: 100%;
+  padding: 10px;
+}
+
+.newsletter .holder .nRight .nInput button {
+  height: 54px;
+  width: 40%;
+  color: white;
+  background-color: #00aa67;
+  border: 1px solid gray;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.footer {
+  width: 100%;
+  height: 570px;
+  background-color: #414d5a;
+}
+
+.footer .holder {
+  width: 90%;
+  height: 450px;
+  padding-top: 10px;
+  margin: 0px 0px 0px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  color: white;
+  position: relative;
+}
+
+.footer .holder .fTop {
+  width: 28%;
+  height: 35%;
+}
+.footer .holder .fTop .fLogo {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
+.footer .holder .fTop .fLogo img {
+  width: 50px;
+  height: 35px;
+}
+
+.footer .holder .fTop .fLogo h2 {
+  font-size: 30px;
+}
+
+.footer .holder .fTop .fText {
+  margin-left: 15px;
+  color: lightgray;
+}
+
+.footer .holder .fTop .fText p {
+  padding-bottom: 22px;
+}
+
+.footer .holder .fTop .fText .fContact {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15px;
+}
+
+.footer .holder .fTop .fText .fContact i {
+  font-size: 10px;
+  color: #00aa67;
+}
+
+.footer .holder .fTop .fText .fContact h5 {
+  padding-left: 5px;
+}
+
+.footer .holder .fOther {
+  width: 12%;
+  height: 35%;
+}
+
+.footer .holder .fTop .fOther h3 {
+  padding-bottom: 50px;
+}
+
+.footer .holder .fLinks {
+  width: 12%;
+  height: 35%;
+}
+
+.footer .holder,
+h3 {
+  padding-bottom: 30px;
+}
+
+.footer .holder li {
+  list-style: none;
+  padding-bottom: 10px;
+  color: lightgray;
+}
+
+.footer .holder .Hours {
+  width: 30%;
+  height: 35%;
+}
+
+.footer .holder .Hours .time {
+  display: flex;
+  flex-direction: row;
+  color: lightgray;
+}
+
+.footer .holder .Hours .time h5 {
+  padding-left: 5px;
+  padding-bottom: 25px;
+}
+
+.footer .holder .Hours p {
+  padding-left: 5px;
+  margin-bottom: 10px;
+  color: lightgray;
+}
+
+.footer .holder .Hours button {
+  padding: 12px 18px;
+  background-color: #00aa67;
+  color: white;
+  margin-top: 25px;
+}
+.footer hr {
+  width: 85%;
+  height: 1px;
+  margin-left: 90px;
+}
+.footer .last .fBottom {
+  width: 84%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 105px;
+  position: absolute;
+  bottom: -3450px;
+  display: flex;
+  flex-direction: row;
+  color: lightgray;
+}

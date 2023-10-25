@@ -1,0 +1,412 @@
+@media screen and (max-width: 450px) {
+  .nav {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .nav .holder {
+    width: 100%;
+    height: 140px;
+    font-size: 10px;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+
+  .nav .holder .navLeft {
+    width: 80%;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav .holder .navLeft .wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav .holder .navLeft .icon {
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    background-color: #dbb86a;
+  }
+
+  .nav .holder .navLeft h2 {
+    font-family: "Gabarito", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    display: flex;
+    justify-content: left;
+  }
+
+  .nav .holder .navLeft h3 {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 15px;
+  }
+
+  .nav .holder .navRight {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav .holder .navRight a {
+    font: 15px sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px 0px 15px;
+  }
+
+  .header {
+    width: 570px;
+    height: 500px;
+  }
+
+  .header .holder {
+    width: 570px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header .holder .hLeft {
+    width: 570px;
+    height: 490px;
+    background-color: #dbb86a;
+    position: relative;
+  }
+
+  .header .holder .hRight {
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    right: 5px;
+    bottom: -550px;
+  }
+  .header .holder .hRight h2 {
+    font-family: "Gabarito", sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+  }
+
+  .header .holder .hRight .fRight {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header .holder .hRight .fRight .text {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    margin-right: 11px;
+    margin-left: 10px;
+    border: 1px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .header .holder .hRight h4 {
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 35px;
+    padding: 20px;
+  }
+
+  .header .holder .hRight .Myabout {
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 12px 45px;
+  }
+
+  .header .holder .hRight p {
+    line-height: 1.5;
+    padding: 20px;
+  }
+
+  .about .holder .aRight .word {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header .info {
+    width: 390px;
+    height: 380px;
+    background-color: #f4ece6;
+    position: absolute;
+    top: 280px;
+    left: 30px;
+  }
+
+  .header .info .holder {
+    width: 370px;
+    height: 360px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+  }
+
+  .header .info .holder .infoName {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    padding-left: 90px;
+    text-shadow: 3px -4px 2px rgba(219, 184, 106, 0.6);
+    position: absolute;
+    left: 5px;
+  }
+
+  .header .info .holder .infoName h3 {
+    font-family: "Gabarito", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+  }
+
+  .about {
+    width: 570px;
+    height: 900px;
+    background: #e6dace;
+    margin-top: 550px;
+  }
+
+  .about .holder {
+    width: 570px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .about .holder .aLeft {
+    width: 50%;
+    transform: rotate(-40deg);
+    margin-top: 50px;
+    padding-bottom: 55px;
+  }
+
+  .about .holder img {
+    width: 260px;
+    height: 260px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+    margin-right: 10px;
+  }
+
+  .about .holder .aRight {
+    width: 570px;
+    height: 500px;
+    margin-top: 30px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about .holder .aRight .top {
+    width: 550px;
+    padding-top: 20px;
+    display: flex;
+  }
+
+  .about .holder .aRight .top h2 {
+    margin-bottom: 50px;
+  }
+
+  .about .holder .aRight .word {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about .holder .aRight .word h1 {
+    width: 100%;
+    font-size: 25px;
+  }
+
+  .projects {
+    width: 570px;
+    height: 2050px;
+  }
+
+  .projects .holder {
+    width: 570px;
+    height: 2050px;
+    padding-top: 5px;
+  }
+
+  .projects .holder .top {
+    width: 570px;
+    height: 150px;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .projects .holder .top h1 {
+    font-family: "Gabarito", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+  }
+
+  .projects .holder .para {
+    line-height: 1.5;
+    padding-bottom: 30px;
+    padding-left: 50px;
+  }
+
+  .projects .holder .pictures {
+    width: 100%;
+    height: 1750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .projects .holder .pictures .pHolder {
+    width: 95%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #dbb86a;
+  }
+
+  .projects .holder .pictures .pHolder .pics .text h4 {
+    width: 405px;
+    font-size: 17px;
+    padding-bottom: 10px;
+    padding-left: 130px;
+    display: flex;
+  }
+
+  .projects .holder .pictures .pHolder .pics .text p {
+    font-size: 12px;
+    line-height: 1;
+    display: block;
+    padding-bottom: 20px;
+    padding-left: 70px;
+  }
+
+  .contact {
+    width: 570px;
+    height: 1500px;
+  }
+
+  .contact .holder {
+    width: 450px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact .holder .text {
+    width: 470px;
+    height: 150px;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact .holder .all {
+    width: 570px;
+    height: 800px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact .holder .all .cLeft {
+    width: 500px;
+    height: 650px;
+  }
+
+  .contact .holder .all .cLeft .contact {
+    width: 350px;
+    height: 130px;
+    font-size: 10px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact .holder .all .cLeft .contact h2 {
+    height: 120px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact .holder .all .cLeft .contact h5 {
+    font-size: 25px;
+    margin-top: 50px;
+  }
+
+  .contact .holder .all .cLeft form {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact .holder .all .cLeft form .msg {
+    width: 370px;
+    margin-bottom: 20px;
+    padding: 50px 10p;
+    border: none;
+  }
+
+  .contact .holder .all .cLeft form a {
+    margin-left: 100px;
+  }
+
+  .contact .holder .cRight {
+    width: 470px;
+    height: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer {
+    width: 570px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer .fLeft {
+    width: 260px;
+    font-size: 14px;
+    padding-top: 30px;
+  }
+  .footer .fRight {
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 100px; */
+    padding-left: 450px;
+  }
+
+  .footer .call {
+    width: 170px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-left: 380px;
+    font-size: 18px;
+  }
+}
