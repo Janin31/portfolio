@@ -580,10 +580,10 @@ body {
 }
 
 .footer .holder{
-   width: 100%;
+  width: 100%;
   height:80px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 
