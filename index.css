@@ -578,5 +578,5 @@ body {
 
 .contact .holder .footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
