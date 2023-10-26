@@ -576,7 +576,16 @@ body {
   padding-left: 50px;
 }
 
-.contact .holder .footer {
+.footer {
+  width: 100%;
+  height:70px;
   display: flex;
   flex-direction: row;
 }
+
+.footer .holder{
+   width: 100%;
+  height:70px;
+}
+
+.footer .holder
